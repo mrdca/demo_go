@@ -1,0 +1,8 @@
+CREATE TABLE smartphone
+(
+    id SERIAL,
+    name TEXT NOT NULL,
+    brand TEXT NOT NULL,
+    price NUMERIC(10,2) NOT NULL DEFAULT 0.00,
+    CONSTRAINT smartphone_key PRIMARY KEY (id)
+)
